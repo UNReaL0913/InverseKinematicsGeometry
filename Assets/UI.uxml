@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI.uss?fileID=7433441132597879392&amp;guid=40c33abc9367870438d9898961a37fe1&amp;type=3#UI" />
+    <ui:VisualElement name="Panel" class="Panel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 418px; align-self: flex-start; top: 433px; height: 199px; left: 12px; right: 602px; bottom: 670px; -unity-text-align: upper-left; white-space: normal; position: absolute;">
+        <ui:Button text="CALCULATE" display-tooltip-when-elided="true" name="calculate" style="top: 50px;" />
+        <ui:Label tabindex="-1" text="-" display-tooltip-when-elided="true" name="label_error" style="position: absolute; top: 0; height: 36px; width: 406px;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 68px; width: 317px; min-width: 0; min-height: 0; left: 609px; top: 470px;">
+        <ui:FloatField label="x_coordinate" value="0" name="x" style="height: 38px; width: 230px; left: 0; top: 0;" />
+        <ui:FloatField label="y_coordinate" value="42,2" name="y" style="width: 230px; left: 0; top: 10px;" />
+        <ui:FloatField label="z_coordinate" value="42,2" name="z" style="width: 230px; left: 0; top: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>
